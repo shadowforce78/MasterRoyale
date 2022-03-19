@@ -1,0 +1,15 @@
+Name,TID,TID_INFO,IconSWF,IconExportName,CastTime,TriggerDelay,ManaCost,Cooldown,PendingBuff,Buff,BuffTime,BuffRadius,AreaEffectObject,AreaEffectObjectFollow,MorphTarget,ResurrectGainChargeEffect,ResurrectChargeFilter,ResurrectHealthBar,ResurrectEnemies,ResurrectOwnTroops,ResurrectBaseCount,SpawnLimit,DashRange,DashTargetFurthest,SwitchLanes,DeployedEffect,DeployedClip
+String,String,String,String,String,int,int,int,int,String,String,int,int,String,boolean,String,String,String,String,boolean,boolean,int,int,int,boolean,boolean,string,string
+NOTINUSE1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NOTINUSE2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NOTINUSE3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SkeletonKing,TID_ABILITY_NAME_SKELETON_KING_RESURRECT,TID_ABILITY_DESCRIPTION_SKELETON_KING,sc/ui_spells.sc,icon_ability_skeleton_king,933,500,3,20000,,,,,SkeletonKingGraveyard,TRUE,,skeleton_king_gain_charge,skeleton_king_charge_souls,Resurrection,TRUE,TRUE,6,30,,,,ability_charging_skeleton_king,champion_select_ring_rampup_skeleton_king
+NOTINUSE4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NOTINUSE5,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NOTINUSE6,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NOTINUSE7,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GoldenKnightChain,TID_ABILITY_NAME_GOLDEN_KNIGHT_CHAIN_ATTACK,TID_ABILITY_DESCRIPTION_GOLDEN_KNIGHT,sc/ui_spells.sc,icon_ability_golden_knight,766,200,2,10000,GoldenKnightCharge,,,,,,,,,,,,,,10000,,,ability_charging_golden_knight,champion_select_ring_rampup_golden_knight
+ArcherQueenRapid,TID_ABILITY_NAME_ARCHER_QUEEN_INVISIBILITY_RUSH,TID_ABILITY_DESCRIPTION_ARCHER_QUEEN,sc/ui_spells.sc,icon_ability_archer_queen,933,200,2,10000,,ArcherQueenRapid,6000,,,,,,,,,,,,,,,ability_charging_archer_queen,champion_select_ring_rampup_archer_queen
+NOTINUSE8,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GokuAbility,TID_ABILITY_NAME_GOKU_POWER_UP,TID_ABILITY_DESCRIPTION_GOKU,sc/ui_spells.sc,icon_ability_golden_knight,933,200,2,25000,,GokuPowerUp,5000,,GokuTornado,true,,,,,,,,,,,,ability_charging_golden_knight,champion_select_ring_rampup_golden_knight
+MachineAbility,TID_ABILITY_NAME_MACHINE_LIGHTNING,TID_ABILITY_DESCRIPTION_MACHINE,sc/ui_spells.sc,icon_ability_skeleton_king,933,500,2,15000,,MachinePower,5000,,BattleMachineLightning,TRUE,,,,,,,,,,,,ability_charging_golden_knight,champion_select_ring_rampup_golden_knight
